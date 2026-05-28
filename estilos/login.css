@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Serif Georgian", serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f0ea;
+}
+
+.login-section {
+    background-color: white;
+    border-radius: 20px;
+    padding: 32px;
+    box-shadow: 55px;
+}
+
+.botao-voltar {
+    background-color: white;
+    text-decoration: none;
+    font: "Roboto", sans-serif;
+    font-size: 16px;
+    display: inline-flex;
+    justify-content: center;
+    gap: 10px;
+    color: #8B6F47;
+    font-weight: 600;
+    border: none;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.botao-voltar img { 
+    width: 18px;
+    display: block;
+}
+
+.botao-entrar {
+    background: linear-gradient(to right, #8B6F47, #A0826D);
+    color: #fff;
+    padding: 11px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.botao-voltar:hover {
+    opacity: 0.92;
+}
+
+.botao-entrar:hover {
+    opacity: 0.92;
+    transform: scale(1.1);
+}
+
+.cabecalho a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: default; /* Altera o cursor para indicar que não é clicável */
+}
+
+.cabecalho a img {
+    width: 80px;
+}
+
+
+.titulo {
+    color: #5C4033;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.titulo p {
+    color: rgb(114, 114, 114);
+}
+
+.label {
+    color: #555555;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.senha {
+    position: relative; /* Define a posição relativa para o contêiner da senha */   
+}
+
+.email {
+    position: relative; /* Define a posição relativa para o contêiner do email */   
+}
+
+.icone-email {
+    position: absolute; /* Define a posição absoluta para o ícone */
+    left: 10px; /* Ajuste a posição horizontal do ícone */
+    top: 74%; /* Centraliza verticalmente o ícone */
+    transform: translateY(-50%); /* Ajusta a posição vertical do ícone */
+    width: 20px; /* Define a largura do ícone */
+    pointer-events: none; /* Permite que o clique passe pelo ícone para o campo de entrada */
+}
+
+.icone-lock {
+    position: absolute; 
+    left: 10px; 
+    top: 52%; 
+    transform: translateY(-50%); 
+    width: 20px; 
+    pointer-events: none;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.senha input {
+    padding-left: 35px; /* Ajuste o valor conforme necessário para criar espaço suficiente para o ícone */
+}
+
+.email input {
+    padding-left: 35px;
+}
+
+.senha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.senha input{
+    width: 100%;
+}
+
+.senha button {
+    border: none;
+    text-decoration: none;
+    color: #8b6f47;
+    background-color: white;
+    margin-top: 8px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.senha button:hover {
+    background-color: white;
+    color: #5C4033;
+}
+
+input {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 8px;
+}
+
+.caixa-de-texto {
+    width: 100%;
+}
+
+.caixa-de-texto:focus {
+    border: 2px solid #8B6F47;
+    outline: none; /* Remove o contorno padrão do navegador */
+}

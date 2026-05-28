@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Serif Georgian", serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header .logo {
+    width: 119px;
+    height: auto;
+    cursor: pointer;
+}
+
+header .cardapio,
+header .garcom {
+    cursor: pointer;
+}
+
+.nav-barra {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #dac4c4;
+    padding: 1px 22px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #3f2b26;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+}
+
+.bem-vindo-section {
+    max-width: 1180px;
+    margin: 48px auto;
+    padding: 48px 32px;
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    align-items: center;
+    gap: 40px;
+    background: #f9efe8;
+    border-radius: 32px;
+    box-shadow: 0 24px 80px rgba(95, 56, 38, 0.08);
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.hero-intro {
+    color: #4a5565;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.bem-vindo-section h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.02;
+    color: #4f2f24;
+}
+
+.linha {
+    width: 80px;
+    height: 5px;
+    background-color: #8a6654;
+    border-radius: 999px;
+}
+
+.bem-vindo-imagem {
+    overflow: hidden; /* Evita que a imagem ultrapasse os limites do container */
+    border-radius: 32px;
+    box-shadow: 0 24px 60px rgba(23, 12, 15, 0.12);
+}
+
+.bem-vindo-imagem img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+main {
+    padding: 0 20px 32px;
+}
+
+.opcoes-section {
+    max-width: 1180px;
+    margin: 0 auto 48px;
+    padding: 32px 32px 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background: transparent;
+}
+
+.opcoes-section h2 {
+    color: #4f2f24;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.opcoes-grid {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.opcao-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 46px 44px;
+    gap: 16px;
+    background: #f0ebeb;
+    border-radius: 24px;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 18px 30px rgba(101, 62, 37, 0.12);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.opcao-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 24px 42px rgba(101, 62, 37, 0.18);
+}
+
+.opcao-icon {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #98735f 0%, #78503f 100%);
+    display: grid;
+    place-items: center;
+}
+
+.opcao-icon img {
+    width: 58px;
+    height: 58px;
+}
+
+.opcao-card h3 {
+    font-size: 23px;
+    color: #4f2f24;
+}
+
+.opcao-card p {
+    color: #4a5565;
+    text-align: center;
+    line-height: 1.7;
+    max-width: 352px;
+}
