@@ -88,6 +88,19 @@ h1 {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+.lista-pedidos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-pedido {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
 .gradiente {
     background: linear-gradient(to right, #8B6F47, #A0826D);
     padding: 25px;

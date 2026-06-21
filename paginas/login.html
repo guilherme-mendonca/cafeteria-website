@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../estilos/login.css">
+    <script src="../jascript/login.js" defer></script>
     <title>Login Garçom</title> 
 </head>
 <body>
@@ -17,10 +18,10 @@
         <section class="login-section">
             <div>
                 <div class="cabecalho">
-                    <button class="botao-voltar">
-                        <img src="../assets/arrow-left.png" alt="seta">
+                    <a href="../index.html" class="nav-links botao-voltar">
+                        <img src="../assets/arrow-left.png" alt="Voltar">
                         <span>Voltar</span>
-                    </button>
+                    </a>
                     <a class="logo" href="../index.html">
                         <img class="logo" src="../assets/logo.png" alt="Logo do CatCafé">
                     </a>
@@ -30,7 +31,7 @@
                     </div>
                 </div>
 
-                <form action=""''>
+                <form action="" id="form-login">
                     <div class="email">
                         <label class="label" for="email">Email</label>
                         <img class="icone-email" src="../assets/email.png" alt="ícone de email">
@@ -41,11 +42,11 @@
                         <label class="label" for="senha">Senha</label>
                         <img class="icone-lock" src="../assets/lock.png" alt="ícone de cadeado">
                         <input class="caixa-de-texto" type="password" name="senha" id="senha" placeholder="Digite sua senha">
-                        <button class="esqueci-senha">Esqueci minha senha</button>
+                        <button type="button" class="esqueci-senha">Esqueci minha senha</button>
                     </div>
                 </form>
                 
-                <button class="botao-entrar">Entrar</button>
+                <button class="botao-entrar" id="botao-entrar">Entrar</button>
             </div>
         </section>
     </main>

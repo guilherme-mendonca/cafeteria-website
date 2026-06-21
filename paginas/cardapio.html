@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../estilos/cardapio.css">
+    <script src="../jascript/cardapio.js" defer></script>
     <title>Cardápio</title>
 </head>
 <body>
@@ -38,8 +39,8 @@
                     <h2>Expresso</h2>
                     <span class="tipo">Cafés</span>
                 </div>
-                <p class="preco">R$ 8.50</p>
-                <button> + Adiconar ao Pedido </button>
+                <p class="preco" id="preco-expresso">R$ 8.50</p>
+                <button id="adicionar-expresso" class="adicionar-carrinho"> + Adiconar ao Pedido </button>
             </div>
 
             <div class="cardapio-item">
@@ -48,8 +49,8 @@
                     <h2>Cappuccino</h2>
                     <span class="tipo">Cafés</span>
                 </div>
-                <p class="preco">R$ 12.00</p>
-                <button> + Adiconar ao Pedido </button>
+                <p class="preco" id="preco-cappuccino">R$ 12.00</p>
+                <button id="adicionar-cappuccino" class="adicionar-carrinho"> + Adiconar ao Pedido </button>
             </div>
 
             <div class="cardapio-item">
@@ -58,8 +59,8 @@
                     <h2>Latte</h2>
                     <span class="tipo">Cafés</span>
                 </div>
-                <p class="preco">R$ 13.50</p>
-                <button> + Adiconar ao Pedido </button>
+                <p class="preco" id="preco-latte">R$ 13.50</p>
+                <button id="adicionar-latte" class="adicionar-carrinho"> + Adiconar ao Pedido </button>
             </div>
 
             <div class="cardapio-item">
@@ -68,8 +69,8 @@
                     <h2>Café com Leite</h2>
                     <span class="tipo">Cafés</span>
                 </div>
-                <p class="preco">R$ 10.00</p>
-                <button> + Adiconar ao Pedido </button>
+                <p class="preco" id="preco-cafecomleite">R$ 10.00</p>
+                <button id="adicionar-cafecomleite" class="adicionar-carrinho"> + Adiconar ao Pedido </button>
             </div>
 
             <div class="cardapio-item">
@@ -78,8 +79,8 @@
                     <h2>Croissant</h2>
                     <span class="tipo">Doces</span>
                 </div>
-                <p class="preco">R$ 9.00</p>
-                <button> + Adiconar ao Pedido </button>
+                <p class="preco" id="preco-croissant">R$ 9.00</p>
+                <button id="adicionar-croissant" class="adicionar-carrinho"> + Adiconar ao Pedido </button>
             </div>
 
             <div class="cardapio-item">
@@ -88,8 +89,8 @@
                     <h2>Cheesecake</h2>
                     <span class="tipo">Doces</span>
                 </div>
-                <p class="preco">R$ 15.00</p>
-                <button> + Adiconar ao Pedido </button>
+                <p class="preco" id="preco-cheesecake">R$ 15.00</p>
+                <button id="adicionar-cheesecake" class="adicionar-carrinho"> + Adiconar ao Pedido </button>
             </div>
 
             <div class="cardapio-item">
@@ -98,8 +99,8 @@
                     <h2>Bolo de Chocolate</h2>
                     <span class="tipo">Doces</span>
                 </div>
-                <p class="preco">R$ 14.00</p>
-                <button> + Adiconar ao Pedido </button>
+                <p class="preco" id="preco-bolodechocolate">R$ 14.00</p>
+                <button id="adicionar-bolodechocolate" class="adicionar-carrinho"> + Adiconar ao Pedido </button>
             </div>
 
             <div class="cardapio-item">
@@ -108,8 +109,8 @@
                     <h2>Brownie</h2>
                     <span class="tipo">Doces</span>
                 </div>
-                <p class="preco">R$ 12.00</p>
-                <button> + Adiconar ao Pedido </button>
+                <p class="preco" id="preco-brownie">R$ 12.00</p>
+                <button id="adicionar-brownie" class="adicionar-carrinho"> + Adiconar ao Pedido </button>
             </div>
 
             <div class="cardapio-item">
@@ -118,8 +119,8 @@
                     <h2>Sanduíche Natural</h2>
                     <span class="tipo">Salgados</span>
                 </div>
-                <p class="preco">R$ 16.00</p>
-                <button> + Adiconar ao Pedido </button>
+                <p class="preco" id="preco-sanduiche">R$ 16.00</p>
+                <button id="adicionar-sanduiche" class="adicionar-carrinho"> + Adiconar ao Pedido </button>
             </div>
 
             <div class="cardapio-item">
@@ -128,8 +129,8 @@
                     <h2>Quiche</h2>
                     <span class="tipo">Salgados</span>
                 </div>
-                <p class="preco">R$ 18.00</p>
-                <button> + Adiconar ao Pedido </button>
+                <p class="preco" id="preco-quiche">R$ 18.00</p>
+                <button id="adicionar-quiche" class="adicionar-carrinho"> + Adiconar ao Pedido </button>
             </div>
         </div>
     </section>

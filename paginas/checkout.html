@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../estilos/checkout.css">
+	<title>Checkout</title>
+</head>
+<body>
+	<header class="cabecalho">
+		<nav class="nav-barra">
+			<a href="./cardapio.html" class="nav-links botao-voltar">
+				<img src="../assets/arrow-left.png" alt="Voltar ao cardápio">
+				<span>Voltar ao Cardápio</span>
+			</a>
+
+			<a href="../index.html" class="nav-links header-logo" aria-label="Ir para a página inicial">
+				<img src="../assets/logo.png" alt="Logo CatCafé">
+			</a>
+
+			<div class="espaco-nav" aria-hidden="true"></div>
+		</nav>
+	</header>
+
+	<main class="checkout-section">
+		<section class="card-carrinho-vazio" aria-labelledby="checkout-title">
+			<p id="checkout-title" class="mensagem-carrinho">Seu carrinho está vazio</p>
+			<a href="./cardapio.html" class="botao-cardapio">Ver Cardápio</a>
+		</section>
+	</main>
+	<script src="../jascript/checkout.js" defer></script>
+</body>
+</html>

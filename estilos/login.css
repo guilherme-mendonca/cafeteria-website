@@ -20,22 +20,22 @@ body {
     box-shadow: 55px;
 }
 
-.botao-voltar {
-    background-color: white;
-    text-decoration: none;
+.cabecalho .nav-links {
     font: "Roboto", sans-serif;
     font-size: 16px;
     display: inline-flex;
-    justify-content: center;
     gap: 10px;
+    text-decoration: none;
     color: #8B6F47;
     font-weight: 600;
+    background-color: white;
     border: none;
     margin-bottom: 25px;
+    margin-right: 185px;
     cursor: pointer;
 }
 
-.botao-voltar img { 
+.cabecalho .botao-voltar img { 
     width: 18px;
     display: block;
 }
